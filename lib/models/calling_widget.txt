@@ -1,0 +1,29 @@
+Top5SelectedDetailPage(
+        imageSrc: "assets/images/asado-argentino-parrilla.jpg",
+        mealName: "Assado",
+        rate: 4.4,
+        numOfcomments: 200,
+        type: "normal",
+        distance: 10,
+        time: 20,
+        detailText:
+            "El Asado incluye diferentes tipos de cortes de carne que se asan en una parrilla a fuego lento, para que todo quede más tierno. El nombre no proviene de una comida en sí misma, es más bien un “ritual” tradicional, una ocasión en la que las familias y amigos se reúnen para compartir el almuerzo o cena, en general durante los fines de semana.Si comes alguna vez un asado en Argentina podrás encontrar en la parrilla: chorizos, morcillas, chinchulines, matambre de vaca o de cerdo, costillas, etc.El Asado incluye diferentes tipos de cortes de carne que se asan en una parrilla a fuego lento, para que todo quede más tierno. El nombre no proviene de una comida en sí misma,",
+      ),
+
+--------------------------------------------------------------------------
+Base Url
+http://mvs.bslmeiyu.com
+
+/api/v1/products/popular
+--------------------------------------------------------------------------
+
+ShoppingCartListContainer(
+                    img: AppConstance.baseURL +
+                        AppConstance.imageSrc +
+                        cartHelperController.mealInCart[index].img!,
+                    name: cartHelperController.mealInCart[index].name!,
+                    price: cartHelperController.mealInCart[index].price!,
+                    quantity: cartHelperController.mealInCart[index].quantity!,
+                  ),
+
+--------------------------------------------------------------------------

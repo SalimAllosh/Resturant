@@ -1,0 +1,19 @@
+{
+    "home":{
+    "id":1,
+    "name":"sa"
+},
+"office":{
+    "id":2,
+    "name":"sa"
+},
+"other":[{
+    "id":1,
+    "name":"sa"
+} , 
+{
+    "id":1,
+    "name":"sa"
+}
+]
+}
